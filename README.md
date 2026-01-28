@@ -4,6 +4,8 @@ This first part of this project explores statistical significance of various fac
 
 The second part of this project investigates a dataset containing medical records of individuals diagnosed with various types of diabetes, but focused on differentiating type I vs type II diabetes. A random forest classification approach revealed fluctuating feature importance, with BMI, cholesterol, and age frequently ranking highest. BMI's relevance aligns with its role in insulin resistance and type 2 diabetes development, while age differentiates between type 1 and type 2 onset. Elevated cholesterol, particularly LDL, was also identified as a contributing factor, as visceral fat can impair insulin sensitivity. Interestingly, training and testing errors remained equal across different feature sets, warranting further investigation.
 
+*Aside: This was one of the first data analysis projects I completed from start to finish by myself. Naively I didn't realize this dataset was generated. Knowing this now, I don't believe the results are conclusive for what we see in real life as BMI is not a measure of people's health.*
+
 ## Project Structure:
 * **data/** : contains the raw data files.
 * **diabetes_output3.ipynb** : jupyter notebook file containing analysis and codes.
